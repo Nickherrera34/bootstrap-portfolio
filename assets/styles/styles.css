@@ -7,12 +7,20 @@ body, .blank{
 .container{
 	
 	max-width: 100%;
-	
-
 }
 
 
+h1, h2 {
+	color: #4aaaa5;
+}
 
+h1{
+	font-size: 35px;
+}
+
+h2{
+	font-size: 25px;
+}
 
 #main-button{
 	height: 100px;
@@ -68,8 +76,8 @@ footer{
 
 h4{
 	color: #ffffff;
-}
 	font-size: 10px;
+}
 
 img{
 	float: left;
@@ -79,4 +87,37 @@ img{
 .portfolio{
 	margin-bottom: 20px;
 	padding-left: 25px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#main-button, .main, .container-sub{
+		width: 100%;
+		padding:0px;
+	}
+
+	.icon{
+		width:100%;
+
+	}
+
+	#github{
+		display: inline-block;
+		float: left;
+	}
+
+	#linkedin{
+		display: inline-block;
+		float: left;
+	}
+
+	#image-main{
+		width: 100%;
+	}
+
+	.col-sm-4{
+		width: 33%;
+	}
+
 }
